@@ -1,0 +1,201 @@
+/* 20171013 - Beena Devram - project: Tea Cozy */
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, san-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* content header */
+.header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+/* content header Logo */
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* content header navigation */
+.header ul,
+.header li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.header a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* content main section */
+.main-contents {
+  display: flex;
+  padding-top: 69px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* content mission section */
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+}
+
+.missiontitle {
+  background-color: black;
+  width: 100%;
+  padding: 5px 0px 10px;
+}
+
+.missiontitle h2,
+.missiontitle h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.missiontitle h4 {
+  padding-top: 10px;
+}
+
+/* content teas of the month section */
+.teaOfmonth {
+  width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teaOfmonthtitle {
+  padding: 5px;
+  width: 1000px;
+}
+
+.teaOfmonthtitle h2,
+.teaOfmonthtitle h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.teaOfmonthtitle h2 {
+  padding-top: 20px;
+}
+
+.teaOfmonthtitle h4 {
+  padding-top: 10px;
+}
+
+.teas {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.tea {
+  padding: 15px;
+}
+
+.teas h4 {
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+}
+
+/* content locations section */
+.location-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  margin-top: 50px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.loctitle {
+  width: 100%;
+}
+
+.loctitle h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.locations {
+  margin: 15px 0px 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.loc {
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.loc p {
+  line-height: 2.5;
+}
+
+.loc01,
+.loc02,
+.loc03 {
+  background-color: black;
+  width: 300px;
+}
+
+/* content footer */
+.footer {
+  width: 1200px;
+  padding: 0px 20px 20px;
+}
+
+.footer h2,
+.footer h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contactinfo {
+  height: 200px;
+  text-align: center;
+}
+.contactinfo h2 {
+  padding-top: 5px;
+}
+.contactinfo h5 {
+  padding-top: 30px;
+}
+
+.proprietorship {
+  text-align: left;
+}
